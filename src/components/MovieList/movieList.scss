@@ -1,0 +1,30 @@
+.movie-card {
+  background-color: rgb(54, 54, 56);
+  padding-bottom: 3.5rem;
+  cursor: pointer;
+  .movie-card-poster,
+  img {
+    width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+  }
+  :hover {
+    transform: translateY(-10px);
+    transition: 0.2s all linear;
+  }
+  .movie-card-title {
+    color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0.3rem 0.3rem;
+    font-size: 1rem;
+    text-overflow: ellipsis;
+    text-align: center;
+  }
+}
+.modal-img {
+  width: 60%;
+}
+.modal-name {
+  font-size: 1rem;
+  font-weight: bold;
+}
